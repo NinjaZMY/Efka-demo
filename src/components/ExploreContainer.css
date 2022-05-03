@@ -1,0 +1,58 @@
+.container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:50%;
+ transform: TranslateY(-50%);
+ 
+}
+
+
+
+.container strong {
+ 
+  
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.bgSize{
+  height:370px;
+}
+
+#logo{
+  position:absolute;
+  height:100px;
+  left:0px;
+}
+
+#StarterMessage{
+  position: absolute;
+  top:-130px;
+  right:50px;
+  font-size: 102px;
+  font-family: 'VT323', monospace;
+}
+
+.text{
+  border-right: 2px solid rgb(242, 9, 9);
+/*   border-right-width:inherit;
+ */  color:rgb(255, 255, 255);
+ text-shadow: -3px 4px 21px rgba(228,0,0,0.91);
+}
