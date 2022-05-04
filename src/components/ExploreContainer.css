@@ -3,8 +3,8 @@
   position: absolute;
   left: 0;
   right: 0;
-  top:50%;
- transform: TranslateY(-50%);
+  top:0;
+ 
  
 }
 
@@ -44,9 +44,9 @@
 
 #StarterMessage{
   position: absolute;
-  top:-130px;
-  right:50px;
-  font-size: 102px;
+  padding-left: 5%;
+  top:370px;
+  font-size: 120px;
   font-family: 'VT323', monospace;
 }
 
