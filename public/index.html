@@ -77,6 +77,17 @@ display: none;
   {
     alert("redirection");
   }
+
+counter=0;
+window.onresize=function()
+  {
+++counter;
+message1="resized for the ";
+message2=" time";
+message=message1+counter+message2;
+console.log(message);
+  }
+
 </script>
 
 
