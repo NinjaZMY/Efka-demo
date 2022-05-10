@@ -5,7 +5,7 @@ interface ContainerProps { }
  const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
   <div className="container home">
-    <img id='logo' src="assets/logo.gif">
+    <img id='logo' alt='' src="assets/logo.gif">
     </img>
   
     <div className='bgSize'>
